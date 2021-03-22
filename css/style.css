@@ -1,0 +1,31 @@
+/* commit */
+body {
+    font-family: 'Nerko One', cursive;
+}
+
+
+.contenitore > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+}
+
+.contenitore {
+    position: relative;
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #ADD8E6;
+}
+
+.carta {
+    width: calc(100% / 4);
+    height: 150px;
+    margin: 10px;
+    background-color: tomato;
+}
+
+.carta:nth-child(2) {
+    
+}
