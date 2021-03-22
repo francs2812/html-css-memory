@@ -1,4 +1,9 @@
 /* commit */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Nerko One', cursive;
 }
@@ -12,20 +17,49 @@ body {
 }
 
 .contenitore {
-    position: relative;
     width: 60%;
     height: 600px;
     margin: 0 auto;
     background-color: #ADD8E6;
 }
 
+.game {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.fila {
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
 .carta {
-    width: calc(100% / 4);
-    height: 150px;
-    margin: 10px;
+    width: 100px;
+    height: calc(100% - 20px);
     background-color: tomato;
 }
 
-.carta:nth-child(2) {
-    
+.carta.uno {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+.carta.due {
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+
+.carta.tre {
+    position: absolute;
+    top: 0;
+    left: 230px;
+}
+
+.carta.quattro {
+    position: absolute;
+    top: 0;
+    left: 340px;
+
 }
